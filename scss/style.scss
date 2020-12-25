@@ -1,9 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body {
+	background-color: #b9b9ff;
+	font-family: Georgia, serif;
 
+	.slider-container {
+		margin: 0 auto;
 
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+		.slide {
+			display: grid;
+			place-items: center;
+			transition: all 0.25s ease-in-out;
+			text-align: center;
+
+			#slide-img {
+				display: block;
+				width: 100%;
+        max-width: 600px;
+        border: 5px solid #b19600;
+        border-radius: 0.5rem;
+			}
+			#slide-info {
+				font-size: 3rem;
+			}
+		}
+	}
 }
