@@ -7,7 +7,7 @@
 }
 body {
 	background-color: #b9b9ff;
-	font-family: Georgia, serif;
+	font-family: Tahoma, sans-serif;
 
 	.slider-container {
 		margin: 0 auto;
@@ -39,6 +39,8 @@ body {
 		.next-btn {
 			background: transparent;
 			border-color: transparent;
+      font-family: Tahoma, sans-serif;
+      font-weight: bold;
 			font-size: 1.75rem;
 			cursor: pointer;
 			outline: none;
