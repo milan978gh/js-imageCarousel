@@ -21,7 +21,7 @@ body {
 			#slide-img {
 				display: block;
 				width: 100%;
-        max-width: 80vh;
+				max-width: 80vh;
 				border: 5px solid #b19600;
 				border-radius: 0.5rem;
 			}
@@ -35,8 +35,8 @@ body {
 		justify-content: center;
 		margin-top: 0.75rem;
 
-		.prevBtn,
-		.nextBtn {
+		.prev-btn,
+		.next-btn {
 			background: transparent;
 			border-color: transparent;
 			font-size: 1.75rem;
@@ -45,7 +45,7 @@ body {
 			margin: 0 0.25rem;
 			text-transform: capitalize;
 			letter-spacing: 2px;
-			color:#002242;
+			color: #002242;
 		}
 	}
 }

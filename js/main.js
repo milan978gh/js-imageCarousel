@@ -26,4 +26,23 @@ const gallery = [
   }
 ];
 
+const slideImg = document.getElementById('slide-img');
+const slideInfo = document.getElementById('slide-info');
+const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
+let currentItem = 0;
 
+window.addEventListener('DOMContentLoaded', () => {
+  loadItem(currentItem);
+});
+
+prevBtn.addEventListener('click', () => {
+
+});
+nextBtn.addEventListener('click', () => {
+
+});
+
+function loadItem(){
+  
+}
